@@ -1,4 +1,5 @@
-import ImageSize from 'react-native-image-size';
+// import ImageSize from 'react-native-image-size';
+import { mediaLibrary } from 'react-native-media-library'
 
 export type Size = {
   width: number;
@@ -71,12 +72,27 @@ export const getAspectRatio = (size: Size) => {
 };
 
 export const computeImageSize = async (uri: string): Promise<Size> => {
-  const {width, height, rotation} = await ImageSize.getSize(uri);
-  if (rotation === 90 || rotation === 270) {
-    return {width: height, height: width, rotation};
-  } else {
-    return {width, height, rotation};
+  // const {width, height, rotation} = await ImageSize.getSize(uri);
+
+  const imageSizes = await mediaLibrary.imageSizes({
+    images: [uri],
+  });
+  if (!imageSizes || !imageSizes.length) {
+    console.error(
+      '[react-native-avatar-crop] computeImageSize: No imageSizes after mediaLibrary.imageSizes',
+    );
+    return {width: 0, height: 0, rotation: 0};
   }
+
+  const size = imageSizes[0]!;
+
+  // if (rotation === 90 || rotation === 270) {
+  //   return {width: height, height: width, rotation};
+  // } else {
+  //   return {width, height, rotation};
+  // }
+
+  return {width: size.width, height: size.height, rotation: 0};
 };
 
 export const computeScale = (current: number, last: number, max: number, min: number) => {

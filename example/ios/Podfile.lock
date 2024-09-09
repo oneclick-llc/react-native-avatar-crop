@@ -272,9 +272,12 @@ PODS:
   - React-jsinspector (0.66.4)
   - React-logger (0.66.4):
     - glog
-  - react-native-image-editor (2.3.0):
+  - react-native-image-editor (3.1.1):
     - React
     - React-RCTImage
+  - react-native-media-library (2.1.107):
+    - React
+    - React-jsi
   - react-native-safe-area-context (3.2.0):
     - React-Core
   - React-perflogger (0.66.4)
@@ -433,6 +436,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - "react-native-image-editor (from `../node_modules/@react-native-community/image-editor`)"
+  - react-native-media-library (from `../node_modules/react-native-media-library`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -508,6 +512,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   react-native-image-editor:
     :path: "../node_modules/@react-native-community/image-editor"
+  react-native-media-library:
+    :path: "../node_modules/react-native-media-library"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   React-perflogger:
@@ -578,7 +584,8 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 94ce921e1d8ce7023366873ec371f3441383b396
   React-jsinspector: d0374f7509d407d2264168b6d0fad0b54e300b85
   React-logger: 933f80c97c633ee8965d609876848148e3fef438
-  react-native-image-editor: 9361a215c3991cafbe5e7f28cbbad6e72c9c2705
+  react-native-image-editor: 823b15a63e5d79dfc8413ebce128f2d56afce144
+  react-native-media-library: 80333feb6a942731a0b1f8da5acc7570a73e1bc8
   react-native-safe-area-context: f0906bf8bc9835ac9a9d3f97e8bde2a997d8da79
   React-perflogger: 93075d8931c32cd1fce8a98c15d2d5ccc4d891bd
   React-RCTActionSheet: 7d3041e6761b4f3044a37079ddcb156575fb6d89
@@ -601,6 +608,6 @@ SPEC CHECKSUMS:
   Yoga: e7dc4e71caba6472ff48ad7d234389b91dadc280
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 3f93f7ede1ecf837f29332affa5c8c74a857ec6b
+PODFILE CHECKSUM: 166cbbdf3356f6a94ad2e6b14fab97ffeae37f5e
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.15.2

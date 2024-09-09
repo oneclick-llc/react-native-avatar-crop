@@ -1,6 +1,6 @@
 {
   "name": "react-native-avatar-crop",
-  "version": "1.3.5",
+  "version": "1.3.105",
   "description": "Crop component to crop profile images",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vemarav/react-native-avatar-crop.git"
+    "url": "https://github.com/oneclick-llc/react-native-avatar-crop.git"
   },
   "author": {
     "name": "Aravind Vemula",
@@ -23,8 +23,8 @@
     "react-native": "*",
     "@react-native-masked-view/masked-view": "*",
     "react-native-gesture-handler": "*",
-    "@react-native-community/image-editor": "https://github.com/vemarav/react-native-image-editor",
-    "react-native-image-size": "*"
+    "@react-native-community/image-editor": "*",
+    "react-native-media-library": "*"
   },
   "devDependencies": {
     "@types/react": "^17.0.15",
@@ -32,8 +32,8 @@
     "typescript": "^4.3.5",
     "@react-native-masked-view/masked-view": "*",
     "react-native-gesture-handler": "*",
-    "@react-native-community/image-editor": "https://github.com/vemarav/react-native-image-editor",
-    "react-native-image-size": "*"
+    "@react-native-community/image-editor": "*",
+    "react-native-media-library": "*"
   },
   "jest": {
     "preset": "react-native",
@@ -57,5 +57,5 @@
   "bugs": {
     "url": "https://github.com/ggunti/react-native-avatar-crop/issues"
   },
-  "homepage": "https://github.com/vemarav/react-native-avatar-crop"
+  "homepage": "https://github.com/oneclick-llc/react-native-avatar-crop.git"
 }
