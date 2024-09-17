@@ -110,10 +110,10 @@ react-native-gesture-handler@*:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
-react-native-media-library@*:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/react-native-media-library/-/react-native-media-library-0.0.1.tgz#e5cf6a72afc63f76ebe2931cb690f4b603d56d3c"
-  integrity sha512-ehVwLp/dY21FsiuEMBS+P0GpFwaeCI/X+cASuD7+HScvIGnaAXy0GoazBG3YWknCmRRPrgFvgNGD/uQvfREXDw==
+react-native-media-library2@*:
+  version "2.1.20"
+  resolved "https://registry.yarnpkg.com/react-native-media-library2/-/react-native-media-library2-2.1.20.tgz#e51043bbbf0b738a45545e9907fb5e4961520390"
+  integrity sha512-IfzQQp7xHUT5yEZCvPHtIF3ZoLRlNgWqzB+Tsa5jl6o3LfXrUqdl//8ABO8cq3yh2oSSgxjGuEiitsMV5P50aQ==
 
 typescript@^4.3.5:
   version "4.9.5"
