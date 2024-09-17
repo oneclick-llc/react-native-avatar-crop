@@ -275,7 +275,7 @@ PODS:
   - react-native-image-editor (3.1.1):
     - React
     - React-RCTImage
-  - react-native-media-library (2.1.107):
+  - react-native-media-library (2.1.20):
     - React
     - React-jsi
   - react-native-safe-area-context (3.2.0):
@@ -436,7 +436,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - "react-native-image-editor (from `../node_modules/@react-native-community/image-editor`)"
-  - react-native-media-library (from `../node_modules/react-native-media-library`)
+  - react-native-media-library (from `../node_modules/react-native-media-library2`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -513,7 +513,7 @@ EXTERNAL SOURCES:
   react-native-image-editor:
     :path: "../node_modules/@react-native-community/image-editor"
   react-native-media-library:
-    :path: "../node_modules/react-native-media-library"
+    :path: "../node_modules/react-native-media-library2"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   React-perflogger:
@@ -585,7 +585,7 @@ SPEC CHECKSUMS:
   React-jsinspector: d0374f7509d407d2264168b6d0fad0b54e300b85
   React-logger: 933f80c97c633ee8965d609876848148e3fef438
   react-native-image-editor: 823b15a63e5d79dfc8413ebce128f2d56afce144
-  react-native-media-library: 80333feb6a942731a0b1f8da5acc7570a73e1bc8
+  react-native-media-library: 7dc5e83139b66ab3305aa9e7e6abbf31bcbcb37f
   react-native-safe-area-context: f0906bf8bc9835ac9a9d3f97e8bde2a997d8da79
   React-perflogger: 93075d8931c32cd1fce8a98c15d2d5ccc4d891bd
   React-RCTActionSheet: 7d3041e6761b4f3044a37079ddcb156575fb6d89

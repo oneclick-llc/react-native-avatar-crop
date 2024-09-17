@@ -1,5 +1,5 @@
 // import ImageSize from 'react-native-image-size';
-import { mediaLibrary } from 'react-native-media-library'
+import { mediaLibrary } from 'react-native-media-library2'
 
 export type Size = {
   width: number;
